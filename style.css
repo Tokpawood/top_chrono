@@ -5,8 +5,8 @@
     top: 0;
     left: 0;
     box-sizing: border-box;
-    background-color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     
 }
 
@@ -16,12 +16,21 @@
     height: 50%;
     padding: 50px;
     margin: 20rem;
-    border: 1px solid hsl(0, 0%, 0%, 0.1);
-    margin-left: 25%;
+/*     border: 1px solid hsl(0, 0%, 0%, 0.1);
+ */    margin-left: 25%;
     border-radius: 8px;
-    scale: 1.2;
-    box-shadow: #2C3E50 1px;
-    
+    scale: 1.09;
+/*     box-shadow: #2C3E50 1px;
+ */    border-radius: 58px;
+    box-shadow: 10px 10px 80px #A74CF2,
+                -10px -10px 80px #3963D7;
+    transition: all 7s ease;
+
+}
+#chrono_vanilla:hover{
+    box-shadow: 10px 10px 20px #A74CF2,
+                -10px -10px 20px #3963D7;
+    transition:all 7s ease;
 }
 
 /* Title*/
@@ -31,6 +40,7 @@
     font-size: 58px;
     text-align: center;
     margin: 10px;
+
 }
 #titre> h2{
     font-size: 38px;
@@ -38,11 +48,13 @@
     margin: 10px;
     list-style: georgian;
     font-weight: 400;
+
 }
 
 /* chronoe*/
 #chrono{
     margin: 18px;
+
 }
 #chrono >p {
     text-align: center;
@@ -55,6 +67,7 @@
     background-color: #2C3E50;
     border-radius: 12px;
     margin-bottom: 24px;
+    
 }
 #chrono >p >span{
     background-color: #2C3E50;
@@ -78,7 +91,7 @@
     border-radius: 8px;
     background-color: #3963D7;
     color: white;
-    border: 1px solid rgb(0, 0, 255, 0.5);
+    border: 1px solid #3963D7;
     cursor: pointer;
     bottom: 5px;
     transition: 0.8;
