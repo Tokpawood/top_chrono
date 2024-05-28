@@ -221,7 +221,7 @@
 }
 /* responsive designe pour les ecran de moin 400px  */
 
-@media screen and (max-width:550px){
+@media screen and (max-width:400px){
     #chrono p {
         font-size: 16px;
         width: 55px;
