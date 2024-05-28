@@ -12,25 +12,21 @@
 
 /* corps du projet*/
 #chrono_vanilla{
-    width: 50%;
-    height: 50%;
-    padding: 50px;
-    margin: 20rem;
-/*     border: 1px solid hsl(0, 0%, 0%, 0.1);
- */    margin-left: 25%;
-    border-radius: 8px;
-    scale: 1.09;
-/*     box-shadow: #2C3E50 1px;
- */    border-radius: 58px;
-    box-shadow: 10px 10px 80px #A74CF2,
-                -10px -10px 80px #3963D7;
-    transition: all 7s ease;
+       width: 50%;
+       padding: 50px;
+       margin: 20rem;
+       margin-left: 25%;
+       border-radius: 8px;
+       scale: 1.09;
+       border-radius: 58px;
+       box-shadow: 0px 1px 10px 0px ;         
+       transition: 1s;
 
 }
 #chrono_vanilla:hover{
-    box-shadow: 10px 10px 20px #A74CF2,
-                -10px -10px 20px #3963D7;
-    transition:all 7s ease;
+ 
+    box-shadow: 0px 5px 30px 0px ;         
+    transition:  1s ;
 }
 
 /* Title*/
@@ -54,31 +50,37 @@
 /* chronoe*/
 #chrono{
     margin: 18px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+   
 }
 #chrono >p {
     text-align: center;
     font-size: 39px;
     font-weight: 600;
-    border: 1px solid;
-    width: 20%;
-    margin-left: 17rem;
+    border: 0px solid; 
+   padding: 10px;
+    width: 120px;
     color: white;
     background-color: #2C3E50;
-    border-radius: 12px;
+    border-radius: 12px; 
     margin-bottom: 24px;
     
 }
+#chrono >p{
+    display: flex;
+}
 #chrono >p >span{
-    background-color: #2C3E50;
     color: #FA709F;
 }
 
 /* Les boutons*/
 
 #button{
-    margin-left: 9rem;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+   
 }
 #button > button{
     align-content: center;
@@ -91,14 +93,127 @@
     border-radius: 8px;
     background-color: #3963D7;
     color: white;
-    border: 1px solid #3963D7;
+    border: 0px solid ;
     cursor: pointer;
-    bottom: 5px;
-    transition: 0.8;
-    background: ;
+    /* bottom: 5px; */
+    transition: 1s;
+    
 }
 #button > button:hover{
-    box-shadow : 1px 2px rgb(0, 0, 0, 0.5);
+    
     scale: 1.1;
     transition: 0.8;
 }
+@media screen and (max-width:1024px){
+    #chrono p {
+        font-size: 20px;
+        width: 75px;
+    }
+    #chrono_vanilla{
+        height: 400px;
+    }
+    #titre> h1{
+        font-size: 30px;
+    }
+    #titre> h2{
+        font-size: 30px; 
+    }
+    #button > button{
+        font-size: 25px;
+        height:50px ;
+         }
+
+
+}
+@media screen and (max-width:815px){
+    #chrono p {
+        font-size: 20px;
+        width: 75px;
+    }
+    #chrono_vanilla{
+        height: 350px;
+    }
+    #titre> h1{
+        font-size: 28px;
+    }
+    #titre> h2{
+        font-size: 25px; 
+    }
+    #button > button{
+        font-size: 25px;
+        height:50px ;
+         }
+
+}
+@media screen and (max-width:723px){
+    #chrono p {
+        font-size: 18px;
+        width: 75px;
+    }
+    #chrono_vanilla{
+        height: 350px;
+        width: 60%;
+        margin-left: 20%;
+        
+    }
+    #titre> h1{
+        font-size: 25px;
+    }
+    #titre> h2{
+        font-size: 25px; 
+    }
+    #button > button{
+        font-size: 25px;
+        height:50px ;
+         }
+
+}
+@media screen and (max-width:610px){
+    #chrono p {
+        font-size: 18px;
+        width: 75px;
+    }
+    #chrono_vanilla{
+        height: 350px;
+        width: 70%;
+        margin-left: 15%;
+      
+        
+    }
+    #titre> h1{
+        font-size: 25px;
+    }
+    #titre> h2{
+        font-size: 25px; 
+    }
+    #button > button{
+        font-size: 22px;
+        height:40px ;
+         }
+  
+
+}
+@media screen and (max-width:550px){
+    #chrono p {
+        font-size: 18px;
+        width: 75px;
+    }
+    #chrono_vanilla{
+        height: 320px;
+        width: 80%;
+        margin-left:10%;
+        
+    }
+    #titre> h1{
+        font-size: 21px;
+    }
+    #titre> h2{
+        font-size: 21px; 
+    }
+    #button > button{
+        font-size: 20px;
+        height:35px ;
+         }
+
+}
+
