@@ -104,6 +104,7 @@
     scale: 1.1;
     transition: 0.8;
 }
+/* responsive designe pour les ipad  */
 @media screen and (max-width:1024px){
     #chrono p {
         font-size: 20px;
@@ -122,9 +123,8 @@
         font-size: 25px;
         height:50px ;
          }
-
-
 }
+/* responsive designe pour les ecran de moin 815px de large  */
 @media screen and (max-width:815px){
     #chrono p {
         font-size: 20px;
@@ -145,6 +145,7 @@
          }
 
 }
+/* responsive designe pour les ecran de moin 723px de large */
 @media screen and (max-width:723px){
     #chrono p {
         font-size: 18px;
@@ -168,6 +169,7 @@
          }
 
 }
+/* responsive design pour les ecran de moin 610px de large  */
 @media screen and (max-width:610px){
     #chrono p {
         font-size: 18px;
@@ -193,6 +195,7 @@
   
 
 }
+/* responsive design  pour les ecren de moin 550px */
 @media screen and (max-width:550px){
     #chrono p {
         font-size: 18px;
@@ -216,4 +219,57 @@
          }
 
 }
+/* responsive designe pour les ecran de moin 400px  */
 
+@media screen and (max-width:550px){
+    #chrono p {
+        font-size: 16px;
+        width: 55px;
+  }
+    #chrono_vanilla{
+        height: 300px;
+        width: 80%;
+        margin-left:10%;
+        
+    }
+    #titre> h1{
+        font-size: 19px;
+    }
+    #titre> h2{
+        font-size: 19px; 
+    }
+    #button > button{
+        font-size: 16px;
+        height:30px ;
+         }
+ }
+ /* responsive design pour les ecran de moin 325px */
+ 
+@media screen and (max-width:325px){
+    #chrono p {
+        font-size: 14px;
+        width: 50px;
+  }
+    #chrono_vanilla{
+        height: 280px;
+        width: 80%;
+        margin-left:10%;
+        
+    }
+    #titre> h1{
+        font-size: 15px;
+     
+    }
+    #titre> h2{
+        font-size: 15px;
+        
+      
+    }
+    #button > button{
+        font-size: 14px;
+        height:27px ;
+      
+         }
+       
+        
+ }
