@@ -34,7 +34,6 @@ window.onload = function (){
     let buttonStop = document.getElementById("block");
     let buttonReset = document.getElementById("boot");
     let boucle;
-
     buttonStart.onclick = function(){
         clearInterval(boucle);
         boucle = setInterval(commencerTimer, 1000);
