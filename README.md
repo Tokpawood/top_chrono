@@ -4,7 +4,7 @@
 
 Introduction 📝
 
-STOPWATCH est un projet conçu par Tokpa Romaric et Junior dans le but de développer leurs compétences en développement front-end. 
+STOPWATCH est un projet conçu par Tokpa Romaric et Junior Koffi dans le but de développer leurs compétences en développement front-end. 
 Ce chronomètre numérique offre une interface utilisateur simple avec trois fonctionnalités clés : démarrer, arrêter et réinitialiser le temps.
 
 Environnement Technique 🛠️
