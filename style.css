@@ -9,6 +9,9 @@
 
     
 }
+body{
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+}
 
 /* corps du projet*/
 #chrono_vanilla{
@@ -18,15 +21,15 @@
        margin-left: 25%;
        border-radius: 8px;
        scale: 1.09;
-       border-radius: 58px;
-       box-shadow: 0px 1px 10px 0px ;         
-       transition: 1s;
+       background-color: rgba(255, 255, 255, 0.35);
+        backdrop-filter: blur(200px);
+        filter: blur();
+        box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+        border-radius: 9px;
+        overflow: hidden;
+        
 
-}
-#chrono_vanilla:hover{
- 
-    box-shadow: 0px 5px 30px 0px ;         
-    transition:  1s ;
+
 }
 
 /* Title*/
@@ -36,6 +39,8 @@
     font-size: 58px;
     text-align: center;
     margin: 10px;
+    color: white;
+
 
 }
 #titre> h2{
@@ -44,6 +49,7 @@
     margin: 10px;
     list-style: georgian;
     font-weight: 400;
+    color: whitesmoke;
 
 }
 
@@ -66,13 +72,15 @@
     background-color: #2C3E50;
     border-radius: 12px; 
     margin-bottom: 24px;
+    width: 20%;
     
 }
 #chrono >p{
     display: flex;
 }
 #chrono >p >span{
-    color: #FA709F;
+    color: #Ff6B6b;
+    margin: auto;
 }
 
 /* Les boutons*/
@@ -91,7 +99,7 @@
     height: 70px;
     font-weight: 500;
     border-radius: 8px;
-    background-color: #3963D7;
+    background-color: rgba(57, 99, 215, 0.5);
     color: white;
     border: 0px solid ;
     cursor: pointer;
