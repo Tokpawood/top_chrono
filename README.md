@@ -1,4 +1,7 @@
 
+![Capture d’écran 2024-06-04 à 04 52 18](https://github.com/Tokpawood/top_chrono/assets/132857758/103058b9-60ee-4143-8576-5c7c355cd69d)
+
+
 Introduction 📝
 
 STOPWATCH est un projet conçu par Tokpa Romaric et Junior dans le but de développer leurs compétences en développement front-end. 
